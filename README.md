@@ -12,7 +12,7 @@ General Rules:
   3. Please update Trello cards accordingly after beginning/finishing tasks.
   4. PLEASE PLEASE PLEASE USE CODE DOCUMENTATION. If your code can't be read by others and be understood
       via annotations and sensible variable names, it hurts the team in the future.
-  5. For consistency, please notate Sankecase (variables with underscores as seperators), "obj_Ball" or "spr_Player_Attack_Base"
+  5. For consistency, please notate Snakecase (variables with underscores as delimiters), "obj_ball" or "spr_Player_Attack_Base"
       Please avoid using Camelcase or Pascalcase. Capitalization within Snakecase is totally fine.
   6. Please visit: https://curc.readthedocs.io/en/latest/programming/coding-best-practices.html
     for more info on proper code documentation.
