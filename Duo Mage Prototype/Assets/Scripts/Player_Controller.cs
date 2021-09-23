@@ -21,7 +21,7 @@ public class Player_Controller : MonoBehaviour
     private float move_ver;
     private Vector2 move_input;
 
-    public GameObject in_room;
+    public MeshRenderer in_room;
     // Start is called before the first frame update
     void Start()
     {
