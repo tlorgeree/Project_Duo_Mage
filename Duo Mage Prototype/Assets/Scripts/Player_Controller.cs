@@ -20,7 +20,8 @@ public class Player_Controller : MonoBehaviour
     private float move_hor;
     private float move_ver;
     private Vector2 move_input;
- 
+
+    public GameObject in_room;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,5 +50,11 @@ public class Player_Controller : MonoBehaviour
         anim.SetFloat("hor_spd_dir", move_hor);
         anim.SetFloat("ver_spd_dir", move_ver);
         anim.SetBool("ver_override", ver_override);
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            if (in_room.GetComponentInChildren<Renderer>().enabled == true) in_room.GetComponentInChildren<Renderer>().enabled = false;
+            else in_room.GetComponentInChildren<Renderer>().enabled = true;
+        }
     }
 }
